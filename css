@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+header h1 {
+    color: #333;
+    font-size: 24px;
+}
+main p {
+    color: #555;
+    font-size: 16px;
+}
+main ul {
+    list-style: none;
+    padding: 0;
+}
+main ul li {
+    margin: 15px 0;
+}
+main ul li a {
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 18px;
+    padding: 8px;
+    display: block;
+}
+main ul li a:hover {
+    background-color: #e0f0ff;
+    border-radius: 5px;
+}
+footer {
+    margin-top: 20px;
+    color: #777;
+    font-size: 14px;
+}
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    header h1 {
+        font-size: 20px;
+    }
+    main ul li a {
+        font-size: 16px;
+    }
+}
